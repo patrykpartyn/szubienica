@@ -1,0 +1,36 @@
+body{
+    background-color: #000000;
+    color:lightgrey;
+    font-size:26px;
+}
+.password{
+    color:red;
+    padding-top:40px;
+    letter-spacing: 3px;
+    font-size: 200%;
+    
+}
+
+.char{
+    width:  40px;
+    height:  40px;
+    border: 2px solid gray;
+    cursor: pointer;
+    border-radius: 15px;
+    text-align: center;
+    margin: 5px;
+    float:left;
+    
+}
+#box{
+    max-width: 400px;
+}
+.char:hover{
+    background-color: #222222;
+    color:#fff;
+    border:3px solid #fff;
+}
+
+.row{
+    padding-top:50px;
+}
